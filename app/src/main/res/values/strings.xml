@@ -1,0 +1,27 @@
+<resources>
+    <!-- The texts of the app -->
+    <string name="app_name">Panathinaikos</string>
+    <string name="king">The King of Europe</string>
+    <string name="trophy">Panathinaikos Trophy Case</string>
+    <string name="euroleague">Euroleague Titles: 6</string>
+    <string name="championship">Greek Championship: 34</string>
+    <string name="cup">Greek Basketball Cup: 18</string>
+    <string name="intercontinental">Intercontinental Cup: 1</string>
+    <string name="information">Info</string>
+    <string name="founded">Founded: 1919</string>
+    <string name="nickname">Nickname: The Shamrock, The Greens, The Six-Starred</string>
+    <string name="arena">Arena: Olympic Athletic Center of Athens "Spiros Louis"</string>
+    <string name="capacity">Capacity: 18,800</string>
+    <string name="phone">Phone: 210 6107160</string>
+    <string name="website">Website: www.paobc.gr</string>
+    <string name="facebook">www.facebook.com/paobcgr</string>
+    <string name="twitter">www.twitter.com/paobcgr</string>
+
+    <!-- Images Description -->
+    <string name="pao_logo">Panathinaikos BC logo</string>
+    <string name="diamantidis">Dimitris Diamantidis</string>
+    <string name="fans">Panathinaikos Fans</string>
+    <string name="fbicon">Facebook Icon</string>
+    <string name="tweeticon">Twitter Icon</string>
+
+</resources>

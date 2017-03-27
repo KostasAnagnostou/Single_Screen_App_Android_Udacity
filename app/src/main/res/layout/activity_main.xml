@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    style="@style/Wmatch_Hwrap"
+    tools:context="com.example.paobc.panathinaikos.MainActivity">
+
+<!-- Basic Layout - Linear Vertical -->
+<LinearLayout
+    style="@style/LayOut" >
+
+    <!-- Header (Top Title)-->
+    <View
+        android:id="@+id/linetop"
+        style="@style/TopView" />
+
+    <TextView
+        android:id="@+id/king"
+        android:text="@string/king"
+        style="@style/Title" />
+
+    <View
+        android:id="@+id/linebottom"
+        style="@style/BottomView"/>
+
+    <!-- Logo Image -->
+    <ImageView
+        android:id="@+id/pao_logo"
+        android:src="@drawable/panatha"
+        android:contentDescription="@string/pao_logo"
+        style="@style/PaoBc" />
+
+    <!-- Smaller Header (Trophy Case) -->
+    <View
+        android:id="@+id/line"
+        style="@style/TopView" />
+
+    <TextView
+        android:id="@+id/trophy"
+        android:text="@string/trophy"
+        style="@style/SmallerHeader" />
+
+    <View
+        android:id="@+id/line1"
+        style="@style/BottomView" />
+
+    <!-- Container for the trophies - RelativeLayout-->
+    <RelativeLayout
+        android:id="@+id/left"
+        style="@style/RelativeLayout">
+
+        <TextView
+            android:id="@+id/winners6"
+            android:drawableStart="@drawable/cup30w"
+            android:drawableLeft="@drawable/cup30w"
+            android:text="@string/euroleague"
+            style="@style/Championship" />
+
+        <TextView
+            android:id="@+id/winners34"
+            android:layout_below="@id/winners6"
+            android:text="@string/championship"
+            android:drawableStart="@drawable/cup30w"
+            android:drawableLeft="@drawable/cup30w"
+            style="@style/Championship" />
+
+        <TextView
+            android:id="@+id/winners18"
+            android:layout_below="@id/winners34"
+            android:drawableStart="@drawable/cup30w"
+            android:drawableLeft="@drawable/cup30w"
+            android:text="@string/cup"
+            style="@style/Championship" />
+
+        <TextView
+            android:id="@+id/winners1"
+            android:layout_below="@id/winners18"
+            android:drawableStart="@drawable/cup30w"
+            android:drawableLeft="@drawable/cup30w"
+            android:text="@string/intercontinental"
+            style="@style/Championship" />
+
+        <ImageView
+            android:id="@+id/diamantidis"
+            android:layout_toRightOf="@id/winners6"
+            android:layout_toEndOf="@id/winners6"
+            android:src="@drawable/diamantidis"
+            android:contentDescription="@string/diamantidis"
+            style="@style/PaoBc" />
+
+    </RelativeLayout>
+    <!-- Container Ends-->
+
+    <!-- Smaller Header (info) -->
+    <View
+        android:id="@+id/line2"
+        style="@style/TopView" />
+
+    <TextView
+        android:id="@+id/info"
+        android:text="@string/information"
+        style="@style/SmallerHeader" />
+
+    <View
+        android:id="@+id/line3"
+        style="@style/BottomView" />
+
+    <!-- Container for the info - RelativeLayout-->
+    <RelativeLayout
+        android:id="@+id/information"
+        style="@style/RelativeLayout" >
+
+        <ImageView
+            android:id="@+id/oaka"
+            android:src="@drawable/oaka"
+            android:contentDescription="@string/fans"
+            style="@style/fans" />
+
+        <TextView
+            android:id="@+id/founded"
+            android:text="@string/founded"
+            style="@style/info" />
+
+        <TextView
+            android:id="@+id/nickname"
+            android:layout_below="@id/founded"
+            android:text="@string/nickname"
+            style="@style/info" />
+
+        <TextView
+            android:id="@+id/arena"
+            android:layout_below="@id/nickname"
+            android:text="@string/arena"
+            style="@style/info" />
+
+        <TextView
+            android:id="@+id/capacity"
+            android:layout_below="@id/arena"
+            android:text="@string/capacity"
+            style="@style/info" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_below="@id/capacity"
+            android:autoLink="phone"
+            android:text="@string/phone"
+            style="@style/info" />
+
+        <TextView
+            android:id="@+id/website"
+            android:layout_below="@id/phone"
+            android:autoLink="web"
+            android:text="@string/website"
+            style="@style/info" />
+
+        <!-- Social Media Icons - FB, Twitter -->
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_below="@id/website"
+            android:src="@drawable/fbpao"
+            android:contentDescription="@string/fbicon"
+            style="@style/social" />
+
+        <ImageView
+            android:id="@+id/twitter"
+            android:layout_below="@id/facebook"
+            android:src="@drawable/twittpao"
+            android:contentDescription="@string/tweeticon"
+            style="@style/social" />
+
+    </RelativeLayout>
+    <!-- Container Ends-->
+
+</LinearLayout>
+</ScrollView>

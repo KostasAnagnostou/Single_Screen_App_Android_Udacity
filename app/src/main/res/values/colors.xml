@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic Colors of the App-->
+    <color name="colorGreen">#105322</color>
+    <color name="colorTextWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+
+    <!-- Transparent Background Color (Black) -->
+    <color name="colorBlackTransparent">#8C000000</color>
+</resources>

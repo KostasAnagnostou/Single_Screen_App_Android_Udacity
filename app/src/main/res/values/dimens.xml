@@ -1,0 +1,20 @@
+<resources>
+    <!-- Dimensions for textSize -->
+    <dimen name="text_header">24sp</dimen>
+    <dimen name="smaller_header">18sp</dimen>
+    <dimen name="text">14sp</dimen>
+
+    <!-- Dimensions for Padding -->
+    <dimen name="paddingLeft">4dp</dimen>
+    <dimen name="paddingTop">12dp</dimen>
+    <dimen name="paddingBottom">8dp</dimen>
+    <dimen name="championship_padding_top">18dp</dimen>
+    <dimen name="social_padding_top">10dp</dimen>
+
+    <!-- Dimensions for margin -->
+    <dimen name="marginTop">12dp</dimen>
+
+    <!-- Dimensions for Views-->
+    <dimen name="views">1dp</dimen>
+
+</resources>

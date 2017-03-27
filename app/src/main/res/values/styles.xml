@@ -1,0 +1,114 @@
+<resources>
+
+    <!-- Base application theme - Hidden Status & Action Bar -->
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- Style for the Scroll View -->
+    <style name="Wmatch_Hwrap" parent="@style/Theme.AppCompat.Light">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Style for the 1st Linear Layout -->
+    <style name="LayOut" parent="@style/Theme.AppCompat.Light">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/colorGreen</item>
+    </style>
+
+    <!-- Style for the 1st TextView (Basic Header) -->
+    <style name="Title" parent="@style/Theme.AppCompat.Light">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/text_header</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">@dimen/paddingTop</item>
+        <item name="android:paddingBottom">@dimen/paddingBottom</item>
+    </style>
+
+    <!-- Style for the (starting) Views at the top -->
+    <style name="TopView" parent="@style/Theme.AppCompat.Light">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/views</item>
+        <item name="android:background">@color/colorTextWhite</item>
+    </style>
+
+    <!-- Style for the (ending) Views at the bottom -->
+    <style name="BottomView" parent="@style/Theme.AppCompat.Light">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/views</item>
+        <item name="android:background">@color/colorTextWhite</item>
+        <item name="android:layout_marginTop">@dimen/marginTop</item>
+    </style>
+
+    <!-- Style for the 1st & 2nd ImageView (Logo & Diamantidis) -->
+    <style name="PaoBc" parent="@style/Theme.AppCompat.Light">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <!-- Style for Relative Layout -->
+    <style name="RelativeLayout" parent="@style/Theme.AppCompat.Light">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorBlack</item>
+    </style>
+
+    <!-- Style for the 2nd TextView (Smaller Headers) -->
+    <style name="SmallerHeader" parent="@style/Theme.AppCompat.Light">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/smaller_header</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:paddingTop">@dimen/paddingTop</item>
+    </style>
+
+    <!-- Style for the trophies TextViews -->
+    <style name="Championship" parent="@style/Theme.AppCompat.Light">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:paddingTop">@dimen/championship_padding_top</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Style for the 3rd ImageView - (Inside info) -->
+    <style name="fans" parent="@style/Theme.AppCompat.Light">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:background">@color/colorBlackTransparent</item>
+    </style>
+
+    <!-- Style for the info TextViews -->
+    <style name="info" parent="@style/Theme.AppCompat.Light">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">@dimen/text</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:paddingTop">@dimen/championship_padding_top</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/colorBlackTransparent</item>
+    </style>
+
+    <!-- Style for the social media images -->
+    <style name="social" parent="@style/Theme.AppCompat.Light">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorBlackTransparent</item>
+        <item name="android:paddingTop">@dimen/social_padding_top</item>
+    </style>
+
+</resources>
