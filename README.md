@@ -14,3 +14,9 @@ The layout of the card is inside the layout folder in <a href="https://github.co
 <a href="https://github.com/KostasAnagnostou/Single_Screen_App_Android_Udacity/blob/master/app/src/main/res/values/styles.xml" >Styles.xml</a>, <a href="https://github.com/KostasAnagnostou/Single_Screen_App_Android_Udacity/blob/master/app/src/main/res/values/strings.xml" >strings.xml</a>, <a href="https://github.com/KostasAnagnostou/Single_Screen_App_Android_Udacity/blob/master/app/src/main/res/values/dimens.xml" >dimens.xml</a> and <a href="https://github.com/KostasAnagnostou/Single_Screen_App_Android_Udacity/blob/master/app/src/main/res/values/colors.xml" >colors.xml</a> are inside the values folder.
 
 The images are inside the <a href="https://github.com/KostasAnagnostou/Single_Screen_App_Android_Udacity/tree/master/app/src/main/res/drawable">drawable folder</a>.
+
+<strong>Screenshots:</strong>
+
+![alt tag](https://github.com/KostasAnagnostou/Single_Screen_App_Android_Udacity/blob/master/pao.png)
+
+![alt tag](https://github.com/KostasAnagnostou/Single_Screen_App_Android_Udacity/blob/master/pao1.png)
